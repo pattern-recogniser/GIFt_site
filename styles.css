@@ -1,33 +1,47 @@
 body {
     text-align: center;
-    font-family: 'Happy Monkey', cursive;
-    background: linear-gradient(#f2cc8f, #e07a5f);
+
+    font-family: 'Philosopher', sans-serif;
+    background: #FDDFEE;
     color: #3d405b;
+    max-width: 320px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-family: 'Allura', cursive;
 }
 
 h1, h2, h3, h4, p {
     text-shadow: 0 0 1px black;
+    font-family: 'Nunito', sans-serif;
+
+
 }
 
 #bff-img {
     width: 150px;
     border-radius: 50%;
-    border: 6px solid #81b29a;
+    border: 6px solid #E6A6A6;
     margin-bottom: 10px;
 }
 
 #bday-age {
-    background: #81b29a;
+    /* background: #E6A6A6; */
     padding: 5px 10px;
     border-radius: 5px;
     margin: 5px 0 10px 0;
+    font-family: 'Allura', cursive;
+    
 }
 
 #bday-date {
     margin: 0;
-    background: #81b29a;
     padding: 5px 10px;
     border-radius: 5px;
+    font-family: 'Allura', cursive;
+    font-size: 20px;
 }
 
 #header {
@@ -42,6 +56,9 @@ h1, h2, h3, h4, p {
 
 .gift-title {
     margin-bottom: 10px;
+    font-family: 'Philosopher', sans-serif;
+
+
 }
 
 .gift-hint {
@@ -50,36 +67,38 @@ h1, h2, h3, h4, p {
 
 #gift-img-cheers {
     height: 200px;
+    size: 100%;
 }
 
 .gift-img {
     margin: 20px auto;
     max-width: 400px;
-    height: 400px;
+    height: 320px;
     border: 6px solid white;
     border-radius: 10px;
-    background-image: url("https://images.unsplash.com/photo-1549465220-1a8b9238cd48?q=80&w=1140&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-image: url("images/4856425.jpg");
     background-size: cover;
 }
 
-#gift-img-happy:hover {
-    background-image: url("https://media.giphy.com/media/FBRMZluqZxyUmbpIN0/giphy-downsized-large.gif");
+#gift-img-happy:hover, #gift-img-happy:active {
+    background-image: url("images/Shehul1.jpeg");
 }
 
-#gift-img-hot:hover {
-    background-image: url("https://media.giphy.com/media/MpeWJ9JyTyOm4/giphy.gif");
+#gift-img-hot:hover, #gift-img-hot:active {
+    background-image: url("images/Shehul2.jpeg");
 }
 
-#gift-img-genius:hover {
-    background-image: url("https://media.giphy.com/media/8O9sRNREFSK6Q/giphy.gif");
+#gift-img-genius:hover, #gift-img-genius:active {
+    background-image: url("images/Shehul3.jpeg");
 }
 
-#gift-img-badass:hover {
-    background-image: url("https://media.giphy.com/media/NVUuyo5DYmBZLKMAvI/giphy.gif");
+#gift-img-badass:hover, #gift-img-badass:active {
+    background-image: url("images/Shehul4.jpeg");
 }
 
-#gift-img-cheers:hover {
-    background-image: url("https://media.giphy.com/media/12HZukMBlutpoQ/giphy.gif");
+#gift-img-cheers:hover, #gift-img-cheers:active {
+    background-image: url("images/sad.jpeg");
+    background-size: stretch;
 }
 
 #footer {
